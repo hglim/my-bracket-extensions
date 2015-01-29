@@ -1,0 +1,3 @@
+[submodule "brackets-emmet"]
+	path = brackets-emmet
+	url = https://github.com/emmetio/brackets-emmet.git
