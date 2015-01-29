@@ -1,0 +1,38 @@
+<div class="wksp-dialog" data-type="index">
+    <div class="wksp-header">
+        <div class="wksp-nav">
+            <div id="modifyTab" class="wksp-nav-tab disabled">
+                <img class="wksp-modify-icon"/>
+                <br/>
+                Modify
+            </div>
+            <div id="manageTab" class="wksp-nav-tab active">
+                <img class="wksp-manage-icon"/>
+                <br/>
+                Manage
+            </div>
+            <div id="addTab" class="wksp-nav-tab">
+                <img class="wksp-add-icon"/>
+                <br/>
+                Add
+            </div>
+            
+            {{#extensionPackage}}
+            <a href="{{homepage}}" target="_blank">
+                <div id="githubTab" class="wksp-nav-tab right">
+                        <img class="wksp-github-icon"/>
+                        <br/>
+                    v{{version}}
+                </div>
+            </a>
+            {{/extensionPackage}}
+            <div id="wallTab" class="wksp-nav-tab right">
+                <img class="wksp-heart-icon"/>
+                <br/>
+                Wall of Coders
+            </div>
+        </div>
+    </div>
+    <div class="wksp-content">
+    </div>
+</div>

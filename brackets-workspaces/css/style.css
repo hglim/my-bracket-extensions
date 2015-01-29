@@ -1,0 +1,173 @@
+.wksp-dialog {
+    width: 760px;
+    height: 500px;
+    background-color: #d4d7d7;
+    
+    position: relative;
+    top: 0;
+    margin: auto;
+    
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.wksp-header {
+    background: #c3c6c5;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #d4d7d7;
+}
+
+.wksp-header .wksp-nav {
+    float: left;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.wksp-dialog a:visited,
+.wksp-dialog a:link {
+    text-decoration:none;
+    color: black;
+}
+
+.wksp-header .wksp-nav-tab {
+    width: 80px;
+    height: 60px;
+    float:left;
+    text-align:center;
+    position: relative;
+}
+
+.wksp-nav-tab:hover,
+.wksp-nav-tab.active,
+.wksp-nav-tab.disabled.active:hover {
+    background-color: #d4d7d7;
+}
+
+.wksp-nav-tab.disabled:hover {
+    background-color: #c3c6c5;
+}
+
+.wksp-dialog .wksp-manage-icon {
+    content: url(images/manage-icon.png);
+    width:24px;
+    margin-top: 10px;
+}
+
+.wksp-dialog .wksp-add-icon {
+    content: url(images/add-icon.png);
+    width:24px;
+    margin-top: 10px;
+}
+
+.wksp-dialog .wksp-heart-icon {
+    content: url(images/heart.png);
+    width:24px;
+    margin-top: 10px;
+}
+
+.wksp-github-icon {
+    content: url(images/github.png);
+    width:24px;
+    margin-top: 10px;
+}
+
+.wksp-modify-icon {
+    content: url(images/modify.png);
+    width:24px;
+    margin-top: 10px;
+}
+
+.wksp-dialog .wksp-content {
+    height: 440px;
+    width: 100%;
+}
+.wksp-body {
+    width: 100%;
+    height: 390px;
+    overflow:scroll;
+}
+
+.wksp-content .wksp-footer {
+    width: 100%;
+    height: 50px;
+    background: #c3c6c5;
+    border-top: 1px solid #d4d7d7;
+}
+
+.wksp-footer button {
+    margin-top: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.wksp-body table {
+    width: 100%;    
+}
+
+.wksp-body table tr {
+    height: 50px;
+    width: 100%;
+}
+
+.wksp-body table tr:nth-child(2n) {
+    background: #c3c6c5;
+}
+
+.wksp-body table td:first-of-type {
+    padding-left: 5px;
+}
+
+.wksp-body table td:last-of-type {
+    padding-right: 5px;   
+}
+
+.wksp-body table .row-path {
+    width: 650px;
+}
+
+.wksp-body table .row-name {
+    width: 200px;
+}
+
+.wksp-body table .row-description {
+    width: 450px;
+}
+
+.wksp-body table .row-actions {
+    width: 110px;
+}
+
+.wksp-body table .row-actions button {
+    float:right;
+}
+
+.wksp-input-name {
+    width: 200px;   
+}
+
+.wksp-textarea-description {
+    width: 500px;
+    resize: none;
+}
+
+.wksp-error {
+    border: solid 1px #ff0000 !important;
+}
+
+.right {
+    float: right !important;
+}
+
+.left {
+    float: left !important;
+}
